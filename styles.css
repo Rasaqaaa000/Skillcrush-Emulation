@@ -1,0 +1,202 @@
+ body {
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+
+ header {
+     margin-top: 30px;
+ }
+
+ header a {
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: black;
+     padding-right: 50px;
+
+ }
+
+ header a:hover {
+     color: darkorange;
+ }
+
+ #nav-bar {
+     border-bottom: solid 1px rgb(186, 186, 186);
+     padding-bottom: 30px;
+     text-transform: uppercase;
+     font-size: 15px;
+ }
+
+ #nav-bar2 {
+     border-bottom: solid 0.5px rgb(186, 186, 186);
+     padding-bottom: 15px;
+ }
+
+ #skillcrush {
+     float: left;
+     font-style: italic;
+     padding-left: 30px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: orange;
+ }
+
+ #job {
+     font-size: 10px;
+     border: ridge 2px black;
+     border-radius: 10px;
+     padding: 2px 5px 2px 5px;
+     background-color: brown;
+     margin-left: 2px;
+     animation-name: job;
+     animation-iteration-count: infinite;
+     animation-duration: 3s;
+     animation-delay: 2s;
+ }
+
+ @keyframes job {
+     0% {
+         background: brown;
+     }
+
+     25% {
+         background: greenyellow;
+     }
+
+     50% {
+         background: pink;
+     }
+
+     75% {
+         background: orange;
+     }
+
+     100% {
+         background: lightslategray;
+     }
+ }
+
+ #free-coding-camp {
+     color: white;
+     padding: 15px;
+     background: orangered;
+     transition: all;
+
+ }
+
+ #free-coding-camp:hover {
+     background-color: brown;
+ }
+
+ #nav-bar2 {
+     margin-bottom: 10px;
+ }
+
+ #blog2 {
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ #blog2:hover {
+     color: black;
+ }
+
+ #navigation a {
+     text-decoration: none;
+     color: orangered;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #html {
+     text-decoration: none;
+     color: orangered;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #keyword {
+     font-style: italic;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: medium;
+ }
+
+ #content {
+     padding-left: 19%;
+     padding-right: 19%;
+ }
+
+ article {
+     text-align: left;
+
+ }
+
+ #table-of-content {
+     text-align: left;
+
+ }
+
+ #list {
+     text-align: left;
+     padding: auto;
+     margin: auto;
+     font-size: large;
+     text-transform: uppercase;
+     margin-bottom: 50px;
+ }
+
+ #list a {
+     color: black;
+     text-decoration-color: orangered;
+
+ }
+
+ #list a:hover {
+     color: orangered;
+ }
+
+ #banner {
+     background: lavenderblush;
+     margin-top: 50px;
+     padding-bottom: 40px;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ #thinking-img {
+     margin-top: -100px;
+ }
+
+ #tech {
+     text-transform: capitalize;
+     font-weight: bold;
+     font-size: 30px;
+ }
+
+ #you {
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ #take-the-quiz {
+     text-decoration: none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     padding: 15px 100px 15px 100px;
+     background: orangered;
+     transition: all;
+     font-weight: bold;
+     font-size: 20px;
+     text-transform: uppercase;
+
+ }
+
+ #take-the-quiz:hover {
+     background-color: chocolate;
+ }
+
+ #build {
+     text-align: left;
+ }
+
+ #review {
+     margin-bottom: 200px;
+ }
